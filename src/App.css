@@ -58,7 +58,8 @@ footer *{
 }
 
 footer img{
-  height: 7vh;
+  height: 50px;
+  min-width: 50px;
 }
 ::-webkit-scrollbar{
   background: #3f3f3f;

@@ -29,3 +29,22 @@
         margin: 20px 0;
       }
 }
+
+@media(max-width: 500px) {
+    .social{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        margin: 20px 30px;
+    }
+
+    footer{
+        flex-direction: column;
+        gap: 5vw;
+    }
+
+    footer div{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
