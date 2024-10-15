@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
+
 }
 
 body{
@@ -15,7 +15,7 @@ body{
 }
 
 span, h1, h2, h3{
-  overflow: hidden;
+
 }
 
 .header{
@@ -31,7 +31,7 @@ span, h1, h2, h3{
 }
 
 section, footer{
-  padding: 1vh 1vw;
+  padding: 1vh 3vw;
 
 }
 
@@ -140,11 +140,7 @@ header img{
   font-size: clamp(13px, 4vw, 20px);
 }
 
-#start h2{
-  text-align: center;
-  display: block;
-  margin: 3vh 0;
-}
+
 
 .start h2{
   text-align: center;
@@ -153,26 +149,71 @@ header img{
 
 }
 
-#start span:nth-child(1){
-  font-size: clamp(20px, 4vw, 30px);
-  display: block;
-  text-align: center;
-
-  padding: 0 2vw;
-  line-height: 150%;
-}
 
 
 
 
 #start ul {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 15px;
   line-height: 120%;
   list-style-position: inside;
-  padding-left: 20px;
 
+  list-style: none;
+  justify-content: center;
+}
+
+#start ul li{
+  background: rgb(0, 28, 187);
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 5px;
+  line-height: 130%;
+  letter-spacing: .5px;
+  padding-top: 35px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.start__bar{
+  display: flex;
+justify-content: end;
+  position: absolute;
+  top: 0;
+  left: 0;
+  gap: 5px;
+  width: 100%;
+  background: #00bfff;
+  padding-right: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#start ul li h4{
+  text-align: center;
+background: rgba(0, 0, 0, 0.32);
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+#start ul li img{
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  height: 50px;
+}
+
+#start ul li:nth-child(1){
+  background: rgb(0, 131, 207);
+}
+
+
+
+.bold{
 
 }
 
@@ -205,7 +246,37 @@ header img{
   filter: drop-shadow(#000 2px 2px 1px);
 }
 
+.start__inner{
+  display: flex;
+  align-items: start;
+  padding: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
 
+.start__inner img{
+  height: 250px;
+max-width: 250px;
+  border-radius: 5px;
+  align-self: center;
+}
+
+#start h2{
+  font-size: clamp(25px, 5vw, 32px);
+  display: block;
+  margin: 3vh 0;
+  line-height: 150%;
+}
+
+.start__span{
+  display: block;
+  margin: 3vh auto;
+  width: 400px;
+  background: #0000001e;
+  padding: 10px;
+  border-radius: 10px;
+}
 
 .start__bottom{
   display: flex;
@@ -223,12 +294,7 @@ header img{
   filter: drop-shadow(#000 2px 2px 1px);
 }
 
-.start__span{
-  display: block;
-  margin: 3vh auto;
-  width: 80%;
-  text-align: center;
-}
+
 
 
 .start__bottom div:nth-child(1){

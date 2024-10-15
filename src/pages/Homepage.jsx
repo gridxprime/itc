@@ -4,6 +4,13 @@ import team from '../img/team.jpg'
 import tg from '../img/social/tg.png'
 import fb from '../img/social/fb.png'
 import inst from '../img/social/inst.png'
+import startInnerImg from '../img/1.jpg'
+import boss from '../img/icons/boss.png'
+import news from '../img/icons/news.png'
+import prog from '../img/icons/prog.png'
+import server from '../img/icons/server.png'
+import web from '../img/icons/web.png'
+
 
 function Homepage() {
   return (
@@ -16,7 +23,8 @@ function Homepage() {
 
     </section>
     <section id='start'>
-   <h2>Центр информационных технологий</h2>
+      <div className="start__inner">
+      <h2>Центр<br></br> Информационных<br></br> Технологий</h2>
     <span className='start__span'>
         обеспечивает 
        развитие и поддержку IT-инфраструктуры, необходимой для эффективного
@@ -24,7 +32,8 @@ function Homepage() {
         процессов, поддерживаем работу информационных систем и отвечаем за безопасность 
         и стабильность IT-инфраструктуры.
        </span>
-
+       <img src={startInnerImg} alt="" />
+    </div>
 
 
 
@@ -33,22 +42,52 @@ function Homepage() {
         Состав центра информационных технологий:
        </h2>
        <ul>
-        <li>Заведующий отделом ЦИТ — Бузурманкулов Асылбек Абдижалилович<br />руководит деятельностью Центра
-           и отвечает за стратегическое развитие.</li>
-        <li>Системный координатор — Успеев Айбек Элесович <br /> координирует работу IT-систем,
-           контролирует их функционирование и внедрение новых технологий.
-        </li>
         <li>
-        Инженер-программист — Абдыжапаров Алтынбек Эдгарович <br /> обеспечивает техническую 
+          <div className="start__bar">
+            <span>–</span>
+            <span>❒</span>
+            <span>X</span>
+          </div>
+          <h3>Заведующий отделом ЦИТ</h3>
+         <h4>Бузурманкулов Асылбек Абдижалилович</h4><br />
+         <span>руководит деятельностью Центра
+           и отвечает за стратегическое развитие.</span>
+           <img src={boss} alt="" /></li>
+        <li>
+        <div className="start__bar">
+            <span>–</span>
+            <span>❒</span>
+            <span>X</span>
+          </div><h3>Системный координатор</h3><h4>Успеев Айбек Элесович</h4> <br /><span> координирует работу IT-систем,
+           контролирует их функционирование и внедрение новых технологий.</span>
+           <img src={server} alt="" />
+        </li>
+        <li>          <div className="start__bar">
+            <span>–</span>
+            <span>❒</span>
+            <span>X</span>
+          </div>
+        <h3>Инженер-программист</h3><h4>Абдыжапаров Алтынбек Эдгарович</h4> <br /><span> обеспечивает техническую 
         поддержку и разработку программных решений для стабильной работы архивных систем.
-
+        </span>
+        <img src={prog} alt="" />
         </li>
     
        </ul>
-       <span>Пресс Служба:</span>
+       <h2>Пресс Служба:</h2>
        <ul>
-         <li>Заведующая отделом — Бекболотова Токтобубу<br/>по работе с общественностью и СМИ</li>
-         <li>Главный архивист — Максут кызы Акмарал<br/>заполнение контентом ведомственного сайта</li>
+         <li>          <div className="start__bar">
+            <span>–</span>
+            <span>❒</span>
+            <span>X</span>
+          </div><h3>Заведующая отделом</h3><h4>Бекболотова Токтобубу</h4><span>по работе с общественностью и СМИ</span>
+         <img src={news} alt="" /></li>
+         <li>          <div className="start__bar">
+            <span>–</span>
+            <span>❒</span>
+            <span>X</span>
+          </div><h3>Главный архивист</h3><h4>Максут кызы Акмарал</h4><span>заполнение контентом ведомственного сайта</span>
+         <img src={web} alt="" /></li>
        </ul>
        </div>
        <h2 className='work'>В нашу работу входит:</h2>

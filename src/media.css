@@ -28,7 +28,16 @@
 
 }
 
+@media(max-width: 750px){
+    #start ul li{
+        width: 80%;
+    }
+}
+
 @media(max-width: 500px) {
+    #start ul li{
+        width: 100%;
+    }
 
 header img{ 
     min-height: 50px;
