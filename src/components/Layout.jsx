@@ -8,7 +8,7 @@ import { NavLink } from 'react-router-dom'
 function Layout() {
   return (
     <>
-    <header>
+    <header className='header' style={{position: "fixed"}}>
 
         <img src={itc__logo} alt="" />
 

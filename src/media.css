@@ -31,6 +31,14 @@
 }
 
 @media(max-width: 500px) {
+
+header img{ 
+    min-height: 50px;
+    min-width: 50px;
+
+
+}
+
     .social{
         flex-wrap: wrap;
         justify-content: center;
