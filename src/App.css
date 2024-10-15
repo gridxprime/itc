@@ -192,7 +192,7 @@ header img{
   display: flex;
   flex-direction: column;
   gap: 3vh;
-  background: url('https://created-phoenix.com/wp-content/uploads/2024/02/098240-5-1170x700.jpg');
+  background: url('./bg/3.jpg');
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
@@ -233,12 +233,12 @@ header img{
 
 }
 .start__bottom div:nth-child(1){
-  background: url('https://hq-wallpapers.ru/wallpapers/6/hq-wallpapers_ru_abstraction3d_27374_1920x1080.jpg');
+  background: url('./bg/1.jpg');
 
 }
 
 .start__bottom div:nth-child(2){
-  background: url('https://static.tildacdn.com/tild3631-6165-4337-b237-383839646336/Journalism.jpg');
+  background: url('./bg/2.jpg');
 }
 
 .start__bottom h2{
