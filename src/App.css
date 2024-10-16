@@ -149,9 +149,106 @@ header img{
 
 }
 
+.start__left{
+  display: flex;
+  flex-direction: column;
+}
+
+.round{
+  height: 150px;
+  width: 150px;
+  background: red;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  border-radius: 50%;
+  animation: round infinite linear 20s 0s;
+  position: relative;
+}
+
+@keyframes round {
+  from{
+    transform: rotateZ(0);
+  }
+  to{
+    transform: rotateZ(360deg);
+  }
+}
+
+.green{
+  width: 50%;
+  height: 50%;
+  background: lightgreen;
+}
+
+.red{
+  width: 50%;
+  height: 50%;
+  background: red;
+}
+
+.yellow{
+  width: 50%;
+  height: 50%;
+  background: yellow;
+}
+
+.magenta{
+  width: 50%;
+  height: 50%;
+  background: magenta;
+}
+
+.center{
+  width: 80%;
+  height: 80%;
+  background:#0039b3;
+  position: absolute;
+  z-index: 10;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 
 
+.round__bottom-spans{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
 
+.round__bottom-spans div{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.round__bottom-spans div:nth-child(1) span:nth-child(1){
+  width: 20px;
+  height: 20px;
+  background: red;
+  display: block;
+}
+
+.round__bottom-spans div:nth-child(2) span:nth-child(1){
+  width: 20px;
+  height: 20px;
+  background: lightgreen;
+  display: block;
+}
+.round__bottom-spans div:nth-child(3) span:nth-child(1){
+  width: 20px;
+  height: 20px;
+  background: magenta;
+  display: block;
+}
+.round__bottom-spans div:nth-child(4) span:nth-child(1){
+  width: 20px;
+  height: 20px;
+  background: yellow;
+  display: block;
+}
 
 #start ul {
   display: flex;
@@ -177,6 +274,10 @@ header img{
   padding-top: 35px;
   padding-bottom: 60px;
   position: relative;
+}
+
+#start ul li h4{
+  padding: 5px 10px;
 }
 
 .start__bar{
@@ -260,7 +361,7 @@ background: rgba(0, 0, 0, 0.32);
   height: 250px;
 max-width: 250px;
   border-radius: 5px;
-  align-self: center;
+
 }
 
 #start h2{
@@ -272,7 +373,7 @@ max-width: 250px;
 
 .start__span{
   display: block;
-  margin: 3vh auto;
+  margin: 0 auto;
   width: 400px;
   background: #0000001e;
   padding: 10px;

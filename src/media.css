@@ -20,15 +20,25 @@
         width: 90%;
     }
     #start h2{
-        text-align: center;
+
         display: block;
       
       }
 
+      .start__left{
+        flex-direction: row;
+        gap: 25px;
+      }
 
 }
 
 @media(max-width: 750px){
+
+    .start__left{
+        flex-direction: column;
+        gap: 25px;
+      }
+
     #start ul li{
         width: 80%;
     }

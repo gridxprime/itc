@@ -24,11 +24,28 @@ function Homepage() {
     </section>
     <section id='start'>
       <div className="start__inner">
+        <div className="start__left">
       <h2>Центр<br></br> Информационных<br></br> Технологий</h2>
+      <div className="round">
+        <div className="green"></div>
+        <div className="red"></div>
+        <div className="yellow"></div>
+        <div className="magenta"></div>
+        <div className="center"></div>
+      </div>
+      <div className="round__bottom-spans">
+        <div><span></span><span>- Надежность</span></div>
+        <div><span></span><span>- Оперативность</span></div>
+        <div><span></span><span>- Инновационность</span></div>
+        <div><span></span><span>- Профессионализм</span></div>
+      </div>
+      </div>
     <span className='start__span'>
-        обеспечивает 
+        Обеспечиваем
        развитие и поддержку IT-инфраструктуры, необходимой для эффективного
-        управления архивами. Мы предоставляем технические решения для автоматизации
+        управления архивами.
+        <br></br>
+        Мы предоставляем технические решения для автоматизации
         процессов, поддерживаем работу информационных систем и отвечаем за безопасность 
         и стабильность IT-инфраструктуры.
        </span>
