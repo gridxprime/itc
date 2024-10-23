@@ -222,6 +222,7 @@ header img{
   display: flex;
   align-items: center;
   gap: 5px;
+
 }
 
 .round__bottom-spans div:nth-child(1) span:nth-child(1){
@@ -229,6 +230,7 @@ header img{
   height: 20px;
   background: red;
   display: block;
+  border-radius: 5px;
 }
 
 .round__bottom-spans div:nth-child(2) span:nth-child(1){
@@ -236,18 +238,21 @@ header img{
   height: 20px;
   background: lightgreen;
   display: block;
+  border-radius: 5px;
 }
 .round__bottom-spans div:nth-child(3) span:nth-child(1){
   width: 20px;
   height: 20px;
   background: magenta;
   display: block;
+  border-radius: 5px;
 }
 .round__bottom-spans div:nth-child(4) span:nth-child(1){
   width: 20px;
   height: 20px;
   background: yellow;
   display: block;
+  border-radius: 5px;
 }
 
 #start ul {
