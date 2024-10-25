@@ -152,6 +152,7 @@ header img{
 .start__left{
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 
 .round{
@@ -359,7 +360,7 @@ background: rgba(0, 0, 0, 0.32);
   padding: 20px;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 25px;
+  gap: 3vw;
 }
 
 .start__inner img{
@@ -369,20 +370,24 @@ background: rgba(0, 0, 0, 0.32);
 
 }
 
-#start h2{
-  font-size: clamp(25px, 5vw, 32px);
-  display: block;
-  margin: 3vh 0;
-  line-height: 150%;
-}
+
 
 .start__span{
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
   margin: 0 auto;
   width: 400px;
-  background: #0000001e;
+
   padding: 10px;
   border-radius: 10px;
+  margin: 0 20px;
+}
+
+.start__span-h2{
+  background: #0000003b;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .start__bottom{
